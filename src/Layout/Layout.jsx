@@ -6,12 +6,13 @@ import Footer from '../Components/Footer/Footer';
 
 const Layout = () => {
     return (
-       <div className='bg-gray-200 '>
-           <div className='max-w-7xl mx-auto '>
+       <div className=' '>
+           <div className='max-w-[1400px] mx-auto '>
             <Navbar></Navbar>
              <Outlet></Outlet>
-            <Footer></Footer>
+            
         </div>
+        <Footer></Footer>
        </div>
     );
 };
